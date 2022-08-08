@@ -1,0 +1,16 @@
+
+
+@endpoint=http://localhost:9900
+
+### 
+POST {{endpoint}}/book/
+Content-Type: application/json
+
+{
+  "name": "new book",
+  "author": "new author",
+  "publication": "2022-01-01",
+}
+
+
+###
